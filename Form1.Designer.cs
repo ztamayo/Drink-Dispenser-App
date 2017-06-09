@@ -30,23 +30,23 @@
         {
             this.label1 = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.WaterradioButton = new System.Windows.Forms.RadioButton();
+            this.PTearadioButton = new System.Windows.Forms.RadioButton();
+            this.RTearadioButton = new System.Windows.Forms.RadioButton();
+            this.SMradioButton = new System.Windows.Forms.RadioButton();
+            this.DietradioButton = new System.Windows.Forms.RadioButton();
+            this.PepsiradioButton = new System.Windows.Forms.RadioButton();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.HCradioButton = new System.Windows.Forms.RadioButton();
+            this.TearadioButton = new System.Windows.Forms.RadioButton();
+            this.CoffeeradioButton = new System.Windows.Forms.RadioButton();
             this.Dispensebutton = new System.Windows.Forms.Button();
             this.Clearbutton = new System.Windows.Forms.Button();
             this.Exitbutton = new System.Windows.Forms.Button();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
-            this.CreamcheckBox = new System.Windows.Forms.CheckBox();
-            this.SugarcheckBox = new System.Windows.Forms.CheckBox();
             this.HoneycheckBox = new System.Windows.Forms.CheckBox();
-            this.PepsiradioButton = new System.Windows.Forms.RadioButton();
-            this.DietradioButton = new System.Windows.Forms.RadioButton();
-            this.SMradioButton = new System.Windows.Forms.RadioButton();
-            this.RTearadioButton = new System.Windows.Forms.RadioButton();
-            this.PTearadioButton = new System.Windows.Forms.RadioButton();
-            this.WaterradioButton = new System.Windows.Forms.RadioButton();
-            this.CoffeeradioButton = new System.Windows.Forms.RadioButton();
-            this.TearadioButton = new System.Windows.Forms.RadioButton();
-            this.HCradioButton = new System.Windows.Forms.RadioButton();
+            this.SugarcheckBox = new System.Windows.Forms.CheckBox();
+            this.CreamcheckBox = new System.Windows.Forms.CheckBox();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
@@ -78,6 +78,78 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Cold Drinks";
             // 
+            // WaterradioButton
+            // 
+            this.WaterradioButton.AutoSize = true;
+            this.WaterradioButton.Font = new System.Drawing.Font("Arial", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.WaterradioButton.Location = new System.Drawing.Point(239, 107);
+            this.WaterradioButton.Name = "WaterradioButton";
+            this.WaterradioButton.Size = new System.Drawing.Size(95, 22);
+            this.WaterradioButton.TabIndex = 10;
+            this.WaterradioButton.TabStop = true;
+            this.WaterradioButton.Text = "Aquafina";
+            this.WaterradioButton.UseVisualStyleBackColor = true;
+            // 
+            // PTearadioButton
+            // 
+            this.PTearadioButton.AutoSize = true;
+            this.PTearadioButton.Font = new System.Drawing.Font("Arial", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.PTearadioButton.Location = new System.Drawing.Point(239, 27);
+            this.PTearadioButton.Name = "PTearadioButton";
+            this.PTearadioButton.Size = new System.Drawing.Size(147, 22);
+            this.PTearadioButton.TabIndex = 9;
+            this.PTearadioButton.TabStop = true;
+            this.PTearadioButton.Text = "Brisk Peach Tea";
+            this.PTearadioButton.UseVisualStyleBackColor = true;
+            // 
+            // RTearadioButton
+            // 
+            this.RTearadioButton.AutoSize = true;
+            this.RTearadioButton.Font = new System.Drawing.Font("Arial", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.RTearadioButton.Location = new System.Drawing.Point(43, 107);
+            this.RTearadioButton.Name = "RTearadioButton";
+            this.RTearadioButton.Size = new System.Drawing.Size(174, 22);
+            this.RTearadioButton.TabIndex = 8;
+            this.RTearadioButton.TabStop = true;
+            this.RTearadioButton.Text = "Brisk Raspberry Tea";
+            this.RTearadioButton.UseVisualStyleBackColor = true;
+            // 
+            // SMradioButton
+            // 
+            this.SMradioButton.AutoSize = true;
+            this.SMradioButton.Font = new System.Drawing.Font("Arial", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.SMradioButton.Location = new System.Drawing.Point(239, 65);
+            this.SMradioButton.Name = "SMradioButton";
+            this.SMradioButton.Size = new System.Drawing.Size(109, 22);
+            this.SMradioButton.TabIndex = 7;
+            this.SMradioButton.TabStop = true;
+            this.SMradioButton.Text = "Sierra Mist";
+            this.SMradioButton.UseVisualStyleBackColor = true;
+            // 
+            // DietradioButton
+            // 
+            this.DietradioButton.AutoSize = true;
+            this.DietradioButton.Font = new System.Drawing.Font("Arial", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.DietradioButton.Location = new System.Drawing.Point(43, 65);
+            this.DietradioButton.Name = "DietradioButton";
+            this.DietradioButton.Size = new System.Drawing.Size(107, 22);
+            this.DietradioButton.TabIndex = 6;
+            this.DietradioButton.TabStop = true;
+            this.DietradioButton.Text = "Diet Pepsi";
+            this.DietradioButton.UseVisualStyleBackColor = true;
+            // 
+            // PepsiradioButton
+            // 
+            this.PepsiradioButton.AutoSize = true;
+            this.PepsiradioButton.Font = new System.Drawing.Font("Arial", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.PepsiradioButton.Location = new System.Drawing.Point(43, 27);
+            this.PepsiradioButton.Name = "PepsiradioButton";
+            this.PepsiradioButton.Size = new System.Drawing.Size(74, 22);
+            this.PepsiradioButton.TabIndex = 5;
+            this.PepsiradioButton.TabStop = true;
+            this.PepsiradioButton.Text = "Pepsi";
+            this.PepsiradioButton.UseVisualStyleBackColor = true;
+            // 
             // groupBox2
             // 
             this.groupBox2.Controls.Add(this.HCradioButton);
@@ -90,6 +162,42 @@
             this.groupBox2.TabIndex = 2;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Hot Drinks";
+            // 
+            // HCradioButton
+            // 
+            this.HCradioButton.AutoSize = true;
+            this.HCradioButton.Font = new System.Drawing.Font("Arial", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.HCradioButton.Location = new System.Drawing.Point(20, 104);
+            this.HCradioButton.Name = "HCradioButton";
+            this.HCradioButton.Size = new System.Drawing.Size(132, 22);
+            this.HCradioButton.TabIndex = 8;
+            this.HCradioButton.TabStop = true;
+            this.HCradioButton.Text = "Hot Chocolate";
+            this.HCradioButton.UseVisualStyleBackColor = true;
+            // 
+            // TearadioButton
+            // 
+            this.TearadioButton.AutoSize = true;
+            this.TearadioButton.Font = new System.Drawing.Font("Arial", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TearadioButton.Location = new System.Drawing.Point(20, 64);
+            this.TearadioButton.Name = "TearadioButton";
+            this.TearadioButton.Size = new System.Drawing.Size(58, 22);
+            this.TearadioButton.TabIndex = 7;
+            this.TearadioButton.TabStop = true;
+            this.TearadioButton.Text = "Tea";
+            this.TearadioButton.UseVisualStyleBackColor = true;
+            // 
+            // CoffeeradioButton
+            // 
+            this.CoffeeradioButton.AutoSize = true;
+            this.CoffeeradioButton.Font = new System.Drawing.Font("Arial", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CoffeeradioButton.Location = new System.Drawing.Point(20, 27);
+            this.CoffeeradioButton.Name = "CoffeeradioButton";
+            this.CoffeeradioButton.Size = new System.Drawing.Size(80, 22);
+            this.CoffeeradioButton.TabIndex = 6;
+            this.CoffeeradioButton.TabStop = true;
+            this.CoffeeradioButton.Text = "Coffee";
+            this.CoffeeradioButton.UseVisualStyleBackColor = true;
             // 
             // Dispensebutton
             // 
@@ -137,16 +245,16 @@
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "Extras";
             // 
-            // CreamcheckBox
+            // HoneycheckBox
             // 
-            this.CreamcheckBox.AutoSize = true;
-            this.CreamcheckBox.Font = new System.Drawing.Font("Arial", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CreamcheckBox.Location = new System.Drawing.Point(25, 27);
-            this.CreamcheckBox.Name = "CreamcheckBox";
-            this.CreamcheckBox.Size = new System.Drawing.Size(82, 22);
-            this.CreamcheckBox.TabIndex = 5;
-            this.CreamcheckBox.Text = "Cream";
-            this.CreamcheckBox.UseVisualStyleBackColor = true;
+            this.HoneycheckBox.AutoSize = true;
+            this.HoneycheckBox.Font = new System.Drawing.Font("Arial", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.HoneycheckBox.Location = new System.Drawing.Point(25, 105);
+            this.HoneycheckBox.Name = "HoneycheckBox";
+            this.HoneycheckBox.Size = new System.Drawing.Size(78, 22);
+            this.HoneycheckBox.TabIndex = 7;
+            this.HoneycheckBox.Text = "Honey";
+            this.HoneycheckBox.UseVisualStyleBackColor = true;
             // 
             // SugarcheckBox
             // 
@@ -159,124 +267,16 @@
             this.SugarcheckBox.Text = "Sugar";
             this.SugarcheckBox.UseVisualStyleBackColor = true;
             // 
-            // HoneycheckBox
+            // CreamcheckBox
             // 
-            this.HoneycheckBox.AutoSize = true;
-            this.HoneycheckBox.Font = new System.Drawing.Font("Arial", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.HoneycheckBox.Location = new System.Drawing.Point(25, 105);
-            this.HoneycheckBox.Name = "HoneycheckBox";
-            this.HoneycheckBox.Size = new System.Drawing.Size(78, 22);
-            this.HoneycheckBox.TabIndex = 7;
-            this.HoneycheckBox.Text = "Honey";
-            this.HoneycheckBox.UseVisualStyleBackColor = true;
-            // 
-            // PepsiradioButton
-            // 
-            this.PepsiradioButton.AutoSize = true;
-            this.PepsiradioButton.Font = new System.Drawing.Font("Arial", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.PepsiradioButton.Location = new System.Drawing.Point(43, 27);
-            this.PepsiradioButton.Name = "PepsiradioButton";
-            this.PepsiradioButton.Size = new System.Drawing.Size(74, 22);
-            this.PepsiradioButton.TabIndex = 5;
-            this.PepsiradioButton.TabStop = true;
-            this.PepsiradioButton.Text = "Pepsi";
-            this.PepsiradioButton.UseVisualStyleBackColor = true;
-            // 
-            // DietradioButton
-            // 
-            this.DietradioButton.AutoSize = true;
-            this.DietradioButton.Font = new System.Drawing.Font("Arial", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.DietradioButton.Location = new System.Drawing.Point(43, 65);
-            this.DietradioButton.Name = "DietradioButton";
-            this.DietradioButton.Size = new System.Drawing.Size(107, 22);
-            this.DietradioButton.TabIndex = 6;
-            this.DietradioButton.TabStop = true;
-            this.DietradioButton.Text = "Diet Pepsi";
-            this.DietradioButton.UseVisualStyleBackColor = true;
-            // 
-            // SMradioButton
-            // 
-            this.SMradioButton.AutoSize = true;
-            this.SMradioButton.Font = new System.Drawing.Font("Arial", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.SMradioButton.Location = new System.Drawing.Point(239, 65);
-            this.SMradioButton.Name = "SMradioButton";
-            this.SMradioButton.Size = new System.Drawing.Size(109, 22);
-            this.SMradioButton.TabIndex = 7;
-            this.SMradioButton.TabStop = true;
-            this.SMradioButton.Text = "Sierra Mist";
-            this.SMradioButton.UseVisualStyleBackColor = true;
-            // 
-            // RTearadioButton
-            // 
-            this.RTearadioButton.AutoSize = true;
-            this.RTearadioButton.Font = new System.Drawing.Font("Arial", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.RTearadioButton.Location = new System.Drawing.Point(43, 107);
-            this.RTearadioButton.Name = "RTearadioButton";
-            this.RTearadioButton.Size = new System.Drawing.Size(174, 22);
-            this.RTearadioButton.TabIndex = 8;
-            this.RTearadioButton.TabStop = true;
-            this.RTearadioButton.Text = "Brisk Raspberry Tea";
-            this.RTearadioButton.UseVisualStyleBackColor = true;
-            // 
-            // PTearadioButton
-            // 
-            this.PTearadioButton.AutoSize = true;
-            this.PTearadioButton.Font = new System.Drawing.Font("Arial", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.PTearadioButton.Location = new System.Drawing.Point(239, 27);
-            this.PTearadioButton.Name = "PTearadioButton";
-            this.PTearadioButton.Size = new System.Drawing.Size(147, 22);
-            this.PTearadioButton.TabIndex = 9;
-            this.PTearadioButton.TabStop = true;
-            this.PTearadioButton.Text = "Brisk Peach Tea";
-            this.PTearadioButton.UseVisualStyleBackColor = true;
-            // 
-            // WaterradioButton
-            // 
-            this.WaterradioButton.AutoSize = true;
-            this.WaterradioButton.Font = new System.Drawing.Font("Arial", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.WaterradioButton.Location = new System.Drawing.Point(239, 107);
-            this.WaterradioButton.Name = "WaterradioButton";
-            this.WaterradioButton.Size = new System.Drawing.Size(95, 22);
-            this.WaterradioButton.TabIndex = 10;
-            this.WaterradioButton.TabStop = true;
-            this.WaterradioButton.Text = "Aquafina";
-            this.WaterradioButton.UseVisualStyleBackColor = true;
-            // 
-            // CoffeeradioButton
-            // 
-            this.CoffeeradioButton.AutoSize = true;
-            this.CoffeeradioButton.Font = new System.Drawing.Font("Arial", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CoffeeradioButton.Location = new System.Drawing.Point(20, 27);
-            this.CoffeeradioButton.Name = "CoffeeradioButton";
-            this.CoffeeradioButton.Size = new System.Drawing.Size(80, 22);
-            this.CoffeeradioButton.TabIndex = 6;
-            this.CoffeeradioButton.TabStop = true;
-            this.CoffeeradioButton.Text = "Coffee";
-            this.CoffeeradioButton.UseVisualStyleBackColor = true;
-            // 
-            // TearadioButton
-            // 
-            this.TearadioButton.AutoSize = true;
-            this.TearadioButton.Font = new System.Drawing.Font("Arial", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TearadioButton.Location = new System.Drawing.Point(20, 64);
-            this.TearadioButton.Name = "TearadioButton";
-            this.TearadioButton.Size = new System.Drawing.Size(58, 22);
-            this.TearadioButton.TabIndex = 7;
-            this.TearadioButton.TabStop = true;
-            this.TearadioButton.Text = "Tea";
-            this.TearadioButton.UseVisualStyleBackColor = true;
-            // 
-            // HCradioButton
-            // 
-            this.HCradioButton.AutoSize = true;
-            this.HCradioButton.Font = new System.Drawing.Font("Arial", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.HCradioButton.Location = new System.Drawing.Point(20, 104);
-            this.HCradioButton.Name = "HCradioButton";
-            this.HCradioButton.Size = new System.Drawing.Size(132, 22);
-            this.HCradioButton.TabIndex = 8;
-            this.HCradioButton.TabStop = true;
-            this.HCradioButton.Text = "Hot Chocolate";
-            this.HCradioButton.UseVisualStyleBackColor = true;
+            this.CreamcheckBox.AutoSize = true;
+            this.CreamcheckBox.Font = new System.Drawing.Font("Arial", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CreamcheckBox.Location = new System.Drawing.Point(25, 27);
+            this.CreamcheckBox.Name = "CreamcheckBox";
+            this.CreamcheckBox.Size = new System.Drawing.Size(82, 22);
+            this.CreamcheckBox.TabIndex = 5;
+            this.CreamcheckBox.Text = "Cream";
+            this.CreamcheckBox.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
@@ -292,6 +292,7 @@
             this.Controls.Add(this.label1);
             this.Name = "Form1";
             this.Text = "Drink Dispenser";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.groupBox2.ResumeLayout(false);

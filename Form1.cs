@@ -1,6 +1,4 @@
 ﻿// Zailyn Tamayo
-// CSC 670 User Interface Engineering
-// Extra Credit Assignment
 
 using System;
 using System.Collections.Generic;
@@ -110,6 +108,11 @@ namespace Drink_Dispenser_App
         {
             // Exits program
             this.Close();
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
