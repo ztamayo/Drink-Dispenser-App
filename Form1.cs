@@ -1,6 +1,4 @@
 ﻿// Zailyn Tamayo
-// CSC 670 User Interface Engineering
-// Extra Credit Assignment
 
 using System;
 using System.Collections.Generic;
